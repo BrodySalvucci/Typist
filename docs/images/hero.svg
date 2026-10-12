@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" role="img" aria-label="Illustration: grey suggested text continuing a sentence in an email, with a Tab key hint">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b2140"/>
+      <stop offset="1" stop-color="#3a1f4d"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="520" rx="28" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="130" y="70" width="940" height="330" rx="14" fill="#1f1f23"/>
+    <rect x="130" y="70" width="940" height="46" rx="14" fill="#2b2b30"/>
+    <rect x="130" y="100" width="940" height="16" fill="#2b2b30"/>
+    <circle cx="158" cy="93" r="7" fill="#ff5f57"/>
+    <circle cx="182" cy="93" r="7" fill="#febc2e"/>
+    <circle cx="206" cy="93" r="7" fill="#28c840"/>
+    <text x="600" y="98" text-anchor="middle" font-family="-apple-system, system-ui, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#9a9aa3">New Message</text>
+  </g>
+
+  <g font-family="-apple-system, system-ui, 'Helvetica Neue', Arial, sans-serif">
+    <text x="166" y="158" font-size="16" fill="#7d7d87">To:  <tspan fill="#d6d6dc">Sam</tspan></text>
+    <line x1="166" y1="174" x2="1034" y2="174" stroke="#34343a"/>
+    <text x="166" y="204" font-size="16" fill="#7d7d87">Subject:  <tspan fill="#d6d6dc">Thursday's launch</tspan></text>
+    <line x1="166" y1="220" x2="1034" y2="220" stroke="#34343a"/>
+
+    <text x="166" y="268" font-size="22" fill="#f2f2f5">Hi Sam,</text>
+    <text x="166" y="318" font-size="22" fill="#f2f2f5">Thanks for the update. I'll take a look and get<tspan fill="#f2f2f5" font-weight="200">|</tspan><tspan fill="#6f6f7a"> back to you by tomorrow</tspan></text>
+  </g>
+
+  <g font-family="-apple-system, system-ui, 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#c9c9d4">
+    <g transform="translate(318 446)">
+      <rect x="0" y="0" width="64" height="38" rx="8" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.28"/>
+      <text x="32" y="25" text-anchor="middle" font-size="15" fill="#ffffff">tab</text>
+      <text x="78" y="25">next word</text>
+    </g>
+    <g transform="translate(512 446)">
+      <rect x="0" y="0" width="100" height="38" rx="8" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.28"/>
+      <text x="50" y="25" text-anchor="middle" font-size="15" fill="#ffffff">shift  tab</text>
+      <text x="114" y="25">everything</text>
+    </g>
+    <g transform="translate(748 446)">
+      <rect x="0" y="0" width="64" height="38" rx="8" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.28"/>
+      <text x="32" y="25" text-anchor="middle" font-size="15" fill="#ffffff">esc</text>
+      <text x="78" y="25">dismiss</text>
+    </g>
+  </g>
+</svg>
