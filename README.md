@@ -22,6 +22,25 @@ right at your caret — in Mail, Notes, Slack, your browser, chat apps. Press
 locally through [llama.cpp](https://github.com/ggml-org/llama.cpp): no account,
 no cloud, no telemetry, and it works offline.
 
+## Why this exists
+
+Typist is inspired by [Cotypist](https://cotypist.app), an app I used every day.
+It used to be free; then it started capping how many words you could complete
+per day unless you paid, and I've been bumping into that limit ever since.
+
+Around the same time I kept seeing people rebuild well-known software as open
+source after studying how the original works — the Photoshop-style editor
+written in Rust got a lot of attention — and I wanted to try the same thing on
+something that affects me personally. For me, that was Cotypist.
+
+So Typist is my take on the same idea: inline completions everywhere, running
+on your own Mac, with no word limits and no subscription. I studied how
+Cotypist behaves to understand what a good version of this needs, then wrote
+Typist from scratch. It contains none of Cotypist's code, assets or branding,
+and it is not affiliated with or endorsed by its makers. If you want a polished,
+supported product, Cotypist is worth paying for; if you want something free
+that you can read and change, this is for you.
+
 | Key (default) | Action |
 | --- | --- |
 | `Tab` | Accept the next word (or the offered emoji / typo fix) |
@@ -135,5 +154,5 @@ Issues and pull requests are welcome. `docs/ARCHITECTURE.md` explains how the
 pieces fit together and lists ideas to pick up. Please run `Scripts/test.sh`
 before opening a pull request.
 
-Typist is an independent project, written from scratch. It is not affiliated
-with any commercial autocomplete product.
+Typist is an independent project, written from scratch. Cotypist is a product
+of its respective owner; Typist is not affiliated with it.
